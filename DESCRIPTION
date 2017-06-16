@@ -1,0 +1,18 @@
+Type: Package
+Package: Rwinsteps
+Version: 1.0.2.9000
+Title: Running Winsteps in R
+Authors@R: c(
+  person("Anthony", "Albano", email = "tony.d.albano@gmail.com", role = c("aut", "cre")),
+  person("Ben", "Babcock", email = "ben.babcock@arrt.org", role = c("aut"))
+)
+URL: https://github.com/talbano/rwinsteps
+Description: The Rwinsteps package facilitates communication between R and the Rasch
+  modeling software Winsteps. The package currently includes functions for reading and
+  writing command files, sending them to Winsteps, reading and writing data according
+  to command file specifications, reading output into R, and plotting various results.
+Depends:
+    R (>= 3.4.0)
+License: GPL-3 + file LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
